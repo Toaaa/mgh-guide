@@ -1,2 +1,3 @@
 # mgh-guide
-Detailed documentation and guide for the Midnight Ghost Hunt Dedicated Servers
+
+We use [VitePress](https://github.com/vuejs/vitepress)! ♥
