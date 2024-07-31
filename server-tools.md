@@ -5,12 +5,12 @@ The Server Tools tab provides a range of administrative functions to manage your
 ## Accessing the Server Tools Tab
 
 ::: tip
-Note that only users whose ID is specified in the `AdminPUIds` parameter in [the configuration file](/custom-rules#string-options) can access this tab.
+Note that only users whose ID is specified in the `AdminPUIds` parameter in [the configuration file](./custom-rules#string-options) can access this tab.
 :::
 
 To access the Server Tools tab, click the button located in the tab list. 
 
-![Server Tools Button](/i/server-tools-button.png)
+![Server Tools Button](./i/server-tools-button.png)
 
 ## Features of the Server Tools Tab
 
@@ -31,12 +31,12 @@ The Server Tools tab offers several administrative features:
 5. **Initiate Vote Kick**
    - Provides an option to initiate a vote kick against another player. If the majority of players agree, the targeted player will be kicked from the server.
 
-![Server Tools Tab](/i/server-tools-tab.png)
+![Server Tools Tab](./i/server-tools-tab.png)
 
 ## Summary
 
 The Server Tools tab is a powerful feature for server administrators, providing essential tools to manage the server and maintain fair play.
 
-Make sure your user ID is included in the `AdminPUIds` parameter in [the configuration file](/custom-rules#string-options) to access these tools.
+Make sure your user ID is included in the `AdminPUIds` parameter in [the configuration file](./custom-rules#string-options) to access these tools.
 
 If you have any questions or need further assistance, the community is [here to help](https://discord.gg/midnightghosthunt)!

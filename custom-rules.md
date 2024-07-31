@@ -1,6 +1,6 @@
 # Custom Rules
 
-The `CustomRules.ini` file is located in the [root of your server directory](/server-structure#root-directory) and allows for advanced customization of the dedicated server.
+The `CustomRules.ini` file is located in the [root of your server directory](./server-structure#root-directory) and allows for advanced customization of the dedicated server.
 
 Below are all available options:
 
@@ -8,123 +8,152 @@ Below are all available options:
 
 - `Custom - ForceChooseTeam=False`  
   Forces players to choose a team.  
-  Possible Values: `True`, `False`
+  Possible Values: `True`, `False`  
+  Default: `False`
 
 - `Custom - GhostsReviveAfterMidnight?=False`  
   Allows ghosts to revive after midnight.  
-  Possible Values: `True`, `False`
+  Possible Values: `True`, `False`  
+  Default: `False`
 
 - `Custom - Limited UI Mode=False`  
   Enables limited UI mode.  
-  Possible Values: `True`, `False`
+  Possible Values: `True`, `False`  
+  Default: `False`
 
 - `Custom - Revives Disabled=False`  
   Disables revives.  
-  Possible Values: `True`, `False`
+  Possible Values: `True`, `False`  
+  Default: `False`
 
 - `Custom - Hunter - Use Max Player Count=False`  
   Enforces max player count for hunters.  
-  Possible Values: `True`, `False`
+  Possible Values: `True`, `False`  
+  Default: `False`
 
 - `Custom - Ghost - Use Max Player Count=False`  
   Enforces max player count for ghosts.  
-  Possible Values: `True`, `False`
+  Possible Values: `True`, `False`  
+  Default: `False`
 
 - `Custom - All Loadout Unlocked=False`  
   Unlocks all loadouts.  
-  Possible Values: `True`, `False`
+  Possible Values: `True`, `False`  
+  Default: `False`
 
 - `Custom - Mystery Loadout=False`  
   Enables mystery loadout.  
-  Possible Values: `True`, `False`
+  Possible Values: `True`, `False`  
+  Default: `False`
 
 - `Custom - Allow Ghost Respawns=False`  
   Allows ghost respawns.  
-  Possible Values: `True`, `False`
+  Possible Values: `True`, `False`  
+  Default: `False`
 
 - `Custom - Allow Hunter Respawns=False`  
   Allows hunter respawns.  
   Possible Values: `True`, `False`
+  Default: `False`
 
 - `Custom - Disable Life Reserve System?=False`  
   Disables the life reserve system.  
-  Possible Values: `True`, `False`
+  Possible Values: `True`, `False`  
+  Default: `False`
 
 - `Custom - Self-Damage When Hit Lvlprop?=False`  
   Enables self-damage when hitting level props.  
-  Possible Values: `True`, `False`
+  Possible Values: `True`, `False`  
+  Default: `False`
 
 ### Integer Options
 
 - `Custom - PreMatchTime=90`  
   Sets the pre-match time.  
-  Possible Values: Any positive integer
+  Possible Values: Any positive integer 
+  Default: `90`
 
 - `Custom - MidnightTime=180`  
   Sets the time at which midnight occurs.  
-  Possible Values: Any positive integer
+  Possible Values: Any positive integer 
+  Default: `180`
 
 - `Custom - PostMidnightTime=60`  
   Sets the post-midnight time.  
-  Possible Values: Any positive integer
+  Possible Values: Any positive integer 
+  Default: `60`
 
 - `Custom - Hunter - Max Player Count=8`  
   Sets the maximum player count for hunters.  
-  Possible Values: Any positive integer
+  Possible Values: Any positive integer 
+  Default: `8`
 
 - `Custom - Ghost - Max Player Count=8`  
   Sets the maximum player count for ghosts.  
-  Possible Values: Any positive integer
+  Possible Values: Any positive integer 
+  Default: `8`
 
 - `Custom - Ghost - Max Respawn Count=3`  
   Sets the maximum respawn count for ghosts.  
-  Possible Values: Any positive integer
+  Possible Values: Any positive integer 
+  Default: `3`
 
 - `Custom - Hunter - Max Respawn Count=3`  
   Sets the maximum respawn count for hunters.  
-  Possible Values: Any positive integer
+  Possible Values: Any positive integer 
+  Default: `3`
 
 - `Custom - Hunter - Self-Damage Lvlprop Amount=10`  
   Sets the amount of self-damage when hitting level props.  
-  Possible Values: Any positive integer
+  Possible Values: Any positive integer 
+  Default: `10`
 
 ### Float Options
 
 - `Custom - Ghost Ability Cooldown Multiplier=5.5`  
   Sets the multiplier for ghost ability cooldown.  
-  Possible Values: Any positive float
+  Possible Values: Any positive float 
+  Default: `1.0`
 
 - `Custom - Ghost Movement Speed Multiplier=1.2`  
   Sets the multiplier for ghost movement speed.  
-  Possible Values: Any positive float
+  Possible Values: Any positive float 
+  Default: `1.0`
 
 - `Custom - Hunter Movement Speed Multiplier=1.2`  
   Sets the multiplier for hunter movement speed.  
-  Possible Values: Any positive float
+  Possible Values: Any positive float 
+  Default: `1.0`
 
 - `Custom - Ghost Slingshot Multiplier=2.0`  
   Sets the multiplier for ghost slingshot.  
-  Possible Values: Any positive float
+  Possible Values: Any positive float 
+  Default: `1.0`
 
 - `Custom - Hunter Health Modifier=1.0`  
   Sets the modifier for hunter health.  
-  Possible Values: Any positive float
+  Possible Values: Any positive float 
+  Default: `1.0`
 
 - `Custom - Ghost Health Modifier=1.0`  
   Sets the modifier for ghost health.  
-  Possible Values: Any positive float
+  Possible Values: Any positive float 
+  Default: `1.0`
 
 - `Custom - Ecto Build Up Speed Multiplier=1.0`  
   Sets the multiplier for ecto build-up speed.  
-  Possible Values: Any positive float
+  Possible Values: Any positive float 
+  Default: `1.0`
 
 - `Custom - Unpossessed Prop Health Multiplier=1.0`  
   Sets the multiplier for unpossessed prop health.  
-  Possible Values: Any positive float
+  Possible Values: Any positive float 
+  Default: `1.0`
 
 - `Custom - Hunter Gadget Count Multiplier=1.0`  
   Sets the multiplier for hunter gadget count.  
-  Possible Values: Any positive float
+  Possible Values: Any positive float 
+  Default: `1.0`
 
 ### String Options
 - `AdminPUIds=76561198343071986`
@@ -157,7 +186,9 @@ Below are all available options:
   - Medic Kit
   - Flamethrower
   - Ghostsmasher
-  - CamCorder
+  - CamCorder 
+  
+  Default: `None`
 
 - `BannedHunterPerks=[Lightweight, Juggernaut]`  
   Bans specific hunter perks. Available perks include:
@@ -170,7 +201,9 @@ Below are all available options:
   - Extra Gear
   - Gadgeteer
   - Overkill
-  - Beserk
+  - Beserk  
+  
+  Default: `None`
 
 - `BannedGhostAbilities=[Doppelganger, Phantom]`  
   Bans specific ghost abilities. Available abilities include:
@@ -185,7 +218,9 @@ Below are all available options:
   - Poltergeist
   - Trickster
   - Deflector
-  - Copycat
+  - Copycat 
+  
+  Default: `None`
 
 - `BannedGhostHaunts=[Chill, Cold Spot]`  
   Bans specific ghost haunts. Available haunts include:
@@ -196,7 +231,9 @@ Below are all available options:
   - Medium
   - Health Orb
   - Shove Hunter
-  - Hallucinate
+  - Hallucinate 
+  
+  Default: `None`
 
 - `BannedGhostPerks=[Heavyweight, Ghostly Reach]`  
   Bans specific ghost perks. Available perks include:
@@ -211,7 +248,9 @@ Below are all available options:
   - Glutton
   - Blast Resistant
   - Quickcharge
-  - Ecto-rush
+  - Ecto-rush 
+  
+  Default: `None`
 
 ### Map-Specific Modifiers
 - `CustomDamageMods={"Spectral Cannon": 5.5}`  
@@ -248,38 +287,40 @@ Below are all available options:
   - Door Attack
   - T-Rex Bite
   - Skeleton Attack
+  
+  Default: `None`
 
 ### Example Configuration
 ```ini
 [/Game/AssetPacks/ProMainMenu/Blueprints/BP_MGH_Instance.BP_MGH_Instance_C]
 AdjustedPlayerVolumes=(("ERROR, BAD UNIQUE NET ID", 0.000000),("76561198434290001", 0.000000),("76561197960447094", -13.909749))
 Custom - ForceChooseTeam=False
-Custom - PreMatchTime=0
-Custom - MidnightTime=0
-Custom - PostMidnightTime=0
+Custom - PreMatchTime=30
+Custom - MidnightTime=30
+Custom - PostMidnightTime=30
 Custom - GhostsReviveAfterMidnight?=False
-Custom - Ghost Ability Cooldown Multiplier=0.000000
-Custom - Ghost Movement Speed Multiplier=0.000000
-Custom - Hunter Movement Speed Multiplier=0.000000
+Custom - Ghost Ability Cooldown Multiplier=1.200000
+Custom - Ghost Movement Speed Multiplier=1.200000
+Custom - Hunter Movement Speed Multiplier=1.200000
 Custom - Limited UI Mode=False
 Custom - Revives Disabled=False
 Custom - Hunter - Use Max Player Count=False
 Custom - Ghost - Use Max Player Count=False
 Custom - Hunter - Max Player Count=0
 Custom - Ghost - Max Player Count=0
-Custom - All Loadout Unlocked=False
+Custom - All Loadout Unlocked=True
 Custom - Mystery Loadout=False
 Custom - Ghost Slingshot Multiplier=0.000000
-Custom - Allow Ghost Respawns=False
+Custom - Allow Ghost Respawns=True
 Custom - Ghost - Max Respawn Count=0
 Custom - Allow Hunter Respawns=False
 Custom - Hunter - Max Respawn Count=0
 Custom - Disable Life Reserve System?=False
-Custom - Hunter Health Modifier=0.000000
-Custom - Ghost Health Modifier=0.000000
-Custom - Ecto Build Up Speed Multiplier=0.000000
-Custom - Unpossessed Prop Health Multiplier=0.000000
-Custom - Hunter Gadget Count Multiplier=0.000000
+Custom - Hunter Health Modifier=1.200000
+Custom - Ghost Health Modifier=1.200000
+Custom - Ecto Build Up Speed Multiplier=1.200000
+Custom - Unpossessed Prop Health Multiplier=1.200000
+Custom - Hunter Gadget Count Multiplier=1.200000
 Custom - Self-Damage When Hit Lvlprop?=False
 Custom - Hunter - Self-Damage Lvlprop Amount=0
 CustomDamageMods=()

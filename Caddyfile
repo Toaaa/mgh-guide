@@ -1,0 +1,8 @@
+:80 {
+	root * /opt/mghdocs/docs/.vitepress/dist
+	encode zstd gzip
+	file_server {
+		precompressed zstd br gzip
+	}
+	try_files {path} {path}/ {path}.html# =404
+}
