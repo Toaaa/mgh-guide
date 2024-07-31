@@ -3,9 +3,9 @@
 To launch the game server, use the following command line options:
 
 ::: tip
-On Windows, these options can be changed in the file `start_server.bat`, which is located in the [root of your server directory](./server-structure#root-directory).
+On Windows, these options can be changed in the file `start_server.bat`, which is located in the [root of your server directory](../server-structure/#root-directory).
 
-For Linux, please refer to our guide on [How to run on linux](./running-mgh-server-linux)
+For Linux, please refer to our guide on [How to run on linux](../running-mgh-server-linux/)
 :::
 
 ### Required Parameters

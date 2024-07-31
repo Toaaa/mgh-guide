@@ -1,6 +1,6 @@
 # Custom Rules
 
-The `CustomRules.ini` file is located in the [root of your server directory](./server-structure#root-directory) and allows for advanced customization of the dedicated server.
+The `CustomRules.ini` file is located in the [root of your server directory](../server-structure/#root-directory) and allows for advanced customization of the dedicated server.
 
 Below are all available options:
 

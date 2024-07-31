@@ -1,11 +1,23 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig, HeadConfig } from 'vitepress'
+
+const umamiScript: HeadConfig = ["script", {
+  defer: "true",
+  src: "https://a.galaxycrow.de/script.js",
+  "data-website-id": "bd74b547-3df6-4fd7-8c4d-0419f69ea8a6"
+}]
+
+const baseHeaders: HeadConfig = ['link', { rel: 'icon', href: '/favicon.ico' }]
+
+const headers = [baseHeaders, umamiScript]
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: "en-US",
   title: "MGH Server Guide",
   description: "Detailed documentation and guide for the Midnight Ghost Hunt Dedicated Server",
-  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+  head: headers,
+  cleanUrls: true,
+  ignoreDeadLinks: true,
   rewrites: {
     'source/:page': 'destination/:page'
   },
@@ -33,10 +45,10 @@ export default defineConfig({
       {
         text: 'Guides',
         items: [
-          { text: 'Introduction / Getting Started', link: '/getting-started'},
+          { text: 'Introduction / Getting Started', link: '/getting-started' },
           { text: 'Running on Windows', link: '/running-mgh-server-windows' },
           { text: 'Running on Linux', link: '/running-mgh-server-linux' },
-          { text: 'Server files & directories', link: '/server-structure'},
+          { text: 'Server files & directories', link: '/server-structure' },
           { text: 'Custom Rules', link: '/custom-rules' },
           { text: 'Command Line Launch Options', link: '/command-line-launch-options' },
           { text: 'Server Tools', link: '/server-tools' },
@@ -57,7 +69,7 @@ export default defineConfig({
       // { icon: 'github', link: 'https://github.com/Toaaa/mgh-guide' },
       { icon: 'discord', link: 'https://discord.gg/midnightghosthunt' }
     ],
-    
+
     footer: {
       message: 'This site may include trademarks of their respective owners. All trademarks are the property of their owners and are used for identification purposes only. No endorsement or affiliation is implied.',
     }

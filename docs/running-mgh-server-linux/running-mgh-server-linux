@@ -50,7 +50,7 @@ Below you will find an launch command example to start the server:
 ```bash
 proton run MidnightGhostHuntServer.exe -log -port={SERVER_PORT} -queryport={QUERY_PORT} -BeaconPort={BEACON_PORT} -multihome=0.0.0.0 -Map={MAP} -Gamename="{GAME_NAME}" -Gamemode="{GAME_MODE}" -Region="{REGION}" -BotDifficulty="{B_DIFFICULTY}" -password="{PASSWORD}" {ADDITIONAL_ARGS} & GH_PID=$!; sleep 1; tail -c0 -F {PATH_TO}/MidnightGhostHunt/Saved/Logs/MidnightGhostHunt.log --pid=$GH_PID
 ```
-> This command contains some mandatory launch parameters. For more information on what each parameter means, please refer to the [Command Line Launch Options](./command-line-launch-options) page.
+> This command contains some mandatory launch parameters. For more information on what each parameter means, please refer to the [Command Line Launch Options](../command-line-launch-options/) page.
 
 After executing the command, the server will start, and the log will be monitored in real-time in your terminal of choice. The tail command follows the log file and displays updates, which is useful for troubleshooting and monitoring server status.
 
@@ -102,7 +102,7 @@ To set up a server in Pterodactyl, go to your admin interface, go to “Servers�
 ##### Pelican
 To set up a server in Pelican, go to your admin interface, go to “Servers” and press the “Create Server” button. Fill in the mandatory fields and select your egg. You can now configure your server under “Egg Variables”.
 
-> For more information about these variables, please refer to the [Custom Rules](./custom-rules) page.
+> For more information about these variables, please refer to the [Custom Rules](../custom-rules/) page.
 
 ---
 
