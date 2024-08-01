@@ -1,4 +1,13 @@
-﻿# Running the MGH Dedicated Server on Linux
+﻿---
+prev:
+  text: 'Running on Windows'
+  link: '/running-mgh-server-windows/'
+next:
+  text: 'Server files & directories'
+  link: '/server-structure/'
+---
+
+# Running the MGH Dedicated Server on Linux
 
 There are many different approaches to run the MGH Dedicated Server on Linux. We will present the 2 most common ones here. The first is fairly straightforward, while the other is aimed at more experienced Linux users.
 
@@ -75,10 +84,6 @@ For the requirements, select which panel you have or want and select the corresp
 ### Running the Server
 #### Get an egg and import it
 First you need to download the egg that matches your panel and import it. For the Pterodactyl egg click [here](/f/eggs/egg-pterodactyl-midnight-ghost-hunt.json) and for the Pelican egg click [here](/f/eggs/egg-pelican-midnight-ghost-hunt.json).
-
-::: tip
-If you don't know how to download the egg, open the link to the egg and press `right-click` and `save as` or `CTRL + S`.
-:::
 
 Next, you need to import the egg into the panel of your choice.
 In Pterodactyl, navigate to your admin interface, go to “Nests” and press the “Import Egg” button. Then select the JSON file of the egg, select any nest and import it.
