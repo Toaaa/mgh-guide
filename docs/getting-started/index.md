@@ -1,3 +1,9 @@
+---
+next:
+  text: 'Running on Windows'
+  link: '/running-mgh-server-windows/'
+---
+
 # Getting Started
 
 ---

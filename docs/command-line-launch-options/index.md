@@ -1,4 +1,13 @@
-﻿# Command Line Launch Options
+﻿---
+prev:
+  text: 'Custom Rules'
+  link: '/custom-rules/'
+next:
+  text: 'Server Tools Tab'
+  link: '/server-tools/'
+---
+
+# Command Line Launch Options
 
 To launch the game server, use the following command line options:
 

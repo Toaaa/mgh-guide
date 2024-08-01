@@ -1,3 +1,12 @@
+---
+prev:
+  text: 'Running on Linux'
+  link: '/running-mgh-server-linux/'
+next:
+  text: 'Custom Rules'
+  link: '/custom-rules/'
+---
+
 # Server File & Folder Structure
 
 Welcome to the guide for Midnight Ghost Hunt's dedicated server file & folder structure. This page helps you understand the important files and folders you’ll need to work with.

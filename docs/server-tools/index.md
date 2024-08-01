@@ -1,4 +1,10 @@
-﻿# Server Tools Tab
+﻿---
+prev:
+  text: 'Command Line Launch Options'
+  link: '/command-line-launch-options/'
+---
+
+# Server Tools Tab
 
 The Server Tools tab provides a range of administrative functions to manage your game server effectively. This page will guide you through accessing and using the Server Tools tab.
 

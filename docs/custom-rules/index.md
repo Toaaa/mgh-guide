@@ -1,3 +1,12 @@
+---
+prev:
+  text: 'Server files & directories'
+  link: '/server-structure/'
+next:
+  text: 'Command Line Launch Options'
+  link: '/command-line-launch-options/'
+---
+
 # Custom Rules
 
 The `CustomRules.ini` file is located in the [root of your server directory](../server-structure/#root-directory) and allows for advanced customization of the dedicated server.
