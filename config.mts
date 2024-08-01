@@ -14,7 +14,7 @@ const headers = [baseHeaders, umamiScript]
 export default defineConfig({
   lang: "en-US",
   title: "MGH Server Guide",
-  description: "Detailed documentation and guide for the Midnight Ghost Hunt Dedicated Server",
+  description: "Comprehensive guide to the Midnight Ghost Hunt Dedicated Server 👻",
   head: headers,
   cleanUrls: true,
   ignoreDeadLinks: true,

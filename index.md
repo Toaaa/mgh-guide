@@ -4,8 +4,7 @@ layout: home
 
 hero:
   name: "MGH Server Guide"
-  text: "Comprehensive guide to the
-  Midnight Ghost Hunt Dedicated Server"
+  text: "Comprehensive guide to the Midnight Ghost Hunt Dedicated Server 👻"
   tagline: ⚠ This guide is community-driven and NOT official.
   actions:
     - theme: brand
