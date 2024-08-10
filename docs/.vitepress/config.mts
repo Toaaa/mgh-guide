@@ -26,11 +26,6 @@ export default defineConfig({
       label: 'English',
       lang: 'en'
     },
-    // de: {
-    //   label: 'Deutsch',
-    //   lang: 'de', // optional, will be added  as `lang` attribute on `html` tag
-    //   link: '/de/' // default /de/ -- shows on navbar translations menu, can be external
-    // }
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
