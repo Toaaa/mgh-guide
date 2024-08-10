@@ -165,10 +165,10 @@ Below are all available options:
   Default: `1.0`
 
 ### String Options
-- `AdminPUIds=76561198343071986`
-  Sets the admin player unique ID.
+- `AdminPUIDs=00026ac36798400dac190f6ce446f7d7`
+  Sets the admin player unique ID(s).
   ::: info
-  As shown above, this unique ID can either be your SteamID64 (example: `76561198343071986`) or EGS PUID (example: `00026ac36798400dac190f6ce446f7d7`) (Depends on whether you play on Steam or Epic Games).
+  The unique ID should be your PUID (example: `00026ac36798400dac190f6ce446f7d7`). To assign multiple admin IDs, separate them with commas (example: `00026ac36798400dac190f6ce446f7d7,1234567890abcdef1234567890abcdef`).
   :::
 
 ### Array Options
@@ -333,7 +333,7 @@ Custom - Hunter Gadget Count Multiplier=1.200000
 Custom - Self-Damage When Hit Lvlprop?=False
 Custom - Hunter - Self-Damage Lvlprop Amount=0
 CustomDamageMods=()
-AdminPUIds=76561198343071986
+AdminPUIds=00026ac36798400dac190f6ce446f7d7
 ```
 
 If you have any questions or need further assistance, the community is [here to help](https://discord.gg/midnightghosthunt)!
