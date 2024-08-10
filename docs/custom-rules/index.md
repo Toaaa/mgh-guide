@@ -165,7 +165,7 @@ Below are all available options:
   Default: `1.0`
 
 ### String Options
-- `AdminPUIDs=00026ac36798400dac190f6ce446f7d7`
+- `AdminPUIds=00026ac36798400dac190f6ce446f7d7`
   Sets the admin player unique ID(s).
   ::: info
   The unique ID should be your PUID (example: `00026ac36798400dac190f6ce446f7d7`). To assign multiple admin IDs, separate them with commas (example: `00026ac36798400dac190f6ce446f7d7,1234567890abcdef1234567890abcdef`).
